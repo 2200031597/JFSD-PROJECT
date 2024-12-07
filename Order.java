@@ -21,8 +21,6 @@ public class Order {
 
     @Column(name = "customer_name", nullable = false)
     private String customerName;
-
-    // Getters and Setters
     public Long getId() {
         return id;
     }
